@@ -2,7 +2,11 @@ import random
 
 
 def sumoProduct(l1, l2):
-if len(l1) != len(l2):
+    if len(l1) != len(l2):
+        raise ValueError('Both list must be equal in length')
+    
+    result = sum
+    
 
 
 numbers1 = [5, 3, 1, 1, 2]
