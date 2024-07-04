@@ -5,7 +5,7 @@ def sumoProduct(l1, l2):
     if len(l1) != len(l2):
         raise ValueError('Both list must be equal in length')
     
-    result = sum( x * y for x, y in zip(li, l2))
+    result = sum( x * y for x, y in zip(l1, l2))
     return result    
 
 
